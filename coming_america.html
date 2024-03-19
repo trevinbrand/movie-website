@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    
+        <meta charset="UTF-8">
+        <title>Coming 2 America Movie Trailer</title>
+        <link href="trailers.css" rel="stylesheet" type="text/css">
+        <link href="style-navbar.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="Movie trailer">
+        <meta name="keywords" content=" Movies">
+        <meta name="author" content="Bishoy Barsoum">
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+
+
+    </head>
+    <body>
+        
+        <div id="container">
+            
+            <div id="header">
+    
+                <h1>COMING 2 AMERICA</h1>
+                <h2>Comments and Reviews included!</h2>
+                
+                <img src="images/movies.jpg" width="900" alt="movies img">
+                
+                
+            
+            </div> <!-- end header -->
+            
+             <!-- ----------------- Overview --------------------- -->
+            
+            <div id="content">
+                
+
+                <h3> Trailer </h3>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1dYut3dPdqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+               <h3>Description</h3>
+                <p>Coming 2 America is an upcoming American comedy film. It will serve as a sequel to Coming to America. The film will be directed by Craig Brewer, from a screenplay by David Sheffield, Barry W. Blaustein, and Kenya Barris, based on characters created by Eddie Murphy.</p>
+               
+                <h3>Star Rating System</h3>
+
+            <!-- start of ratings-->
+                     <title>Star Rating System</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        .star{
+          color: yellow;
+          font-size: 2.0rem;
+          padding: 0 1rem; /* space out the stars */
+        }
+        .star::before{
+          content: '\2606';    /* star outline */
+          cursor: pointer;
+        }
+        .star.rated::before{
+          /* the style for a selected star */
+          content: '\2605';  /* filled star */
+        }
+        
+        .stars{
+            counter-reset: rateme 0;   
+            font-size: 2.0rem;
+            font-weight: 900;
+        }
+        .star.rated{
+            counter-increment: rateme 1;
+        }
+        .stars::after{
+            content: counter(rateme) '/5';
+            color:red;
+        }
+    </style>
+    </head>
+    <body>
+    <!-- alternate codepen version https://codepen.io/mad-d/pen/aJMPWr?editors=0010 -->
+   
+       <div class="stars" data-rating="3">
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+        <span class="star">&nbsp;</span>
+    
+     </div>
+
+     <!-- end of ratings -->
+    
+    
+
+  <h3>Leave a Comment</h3>
+
+   <form action="" method="POST">
+
+   <label> Name: 
+    <input type="text" name="Name" class="Input" style="width: 225px" required>
+   </label>
+   <br><br>
+   <label> Comment: <br>
+    <textarea name="Comment" class="Input" style="width: 300px" required></textarea>
+   </label>
+   <br><br>
+   <input type="submit" name="Submit" value="Submit Comment" class="Submit">
+
+  </form>
+
+ </body>
+
+</html>
+
+
+</div>                
+            
+            </div> <!-- end content -->
+            
+            
+            <div id="footer">
+                
+                <hr>
+        
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="blank_"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br> <a href= "mailto:bpb17b@my.fsu.edu">Bishoy Barsoum</a> April 10, 2020</p>
+            
+            </div> <!-- end footer -->
+        
+        </div> <!-- end container -->
+        
+    </body>
+</html>
